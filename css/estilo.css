@@ -16,6 +16,7 @@ header {
 header h1 {
     text-align: center;
     color: #3B4B59;
+    text-shadow: #28333C;
     font-family: "Boldonse", sans-serif;
     font-weight: 400;
     font-size: 15rem;
@@ -30,6 +31,7 @@ nav {
     text-decoration: none;
     font-size: 2rem;
     justify-content: center;
+    
 }
 
 nav a {
