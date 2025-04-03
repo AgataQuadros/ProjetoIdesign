@@ -60,11 +60,13 @@ h1 {
 }
 
 p {
+    color: #5D2D05;
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.4rem;
     padding: 2px;
+    width: 40%;
 }
 
 section {
@@ -84,17 +86,19 @@ footer p {
 }
 
 img {
-    width: 300px;
-    height: 300px;
-}
-.float_left img {
-    float: left;
-    margin-right: 15px;
+    width: 500px;
+    height: 500px;
 }
 
-.float_rigth img {
+
+.float_left img{
+    float: left;
+    padding: 12px;
+}
+
+.float_rigth img{
     float: right;
-    margin-left: 15px;
+    padding: 12px;
 }
 
 .clear {
