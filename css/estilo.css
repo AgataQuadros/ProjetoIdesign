@@ -68,10 +68,6 @@ p {
 }
 
 
-img {
-    width: 25%;
-}
-
 footer {
     clear: both;
     width: 100%;
@@ -81,26 +77,69 @@ footer {
 
 .img1 {
     float: left;
+    margin-right: 15px;
 }
 
-.texto1 {
+.clear {
     clear: both;
-    width: 70%;
-    float: left;
 }
 
 .img2 {
     float: right;
+    margin-left: 15px;
 }
 
-.texto2 {
-    clear: both;
-    width: 70%;
-}
 
 p.footer {
     line-height: 60px;
     text-align: center;
     font-size: 1.5rem;
+}
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.caixa {
+    width: 80%;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 8px;
+    background-color: #657BA6;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 5px #283551;
+}
+
+.caixa.depois {
+    box-sizing: border-box;
+    background-color: #657BA6;
+}
+
+.caixa.depois p {
+    font-size: 1.5rem;
+    color: #B0D6F9;
+}
+
+.contatos {
+    width: 20%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #657BA6;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 5px #283551;
+}
+
+.contatos p {
+    color: #B0D6F9;
+}
+
+.mapa {
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #657BA6;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 5px #283551;
 }
