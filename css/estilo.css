@@ -5,11 +5,14 @@
 }
 
 body {
+    background-image: url("../img/escritoriobackground2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-color: #9AAFD9;
 }
 
 header {
-    height: 100%;
+    height: 300px;
     background-color: #657BA6;
 }
 
@@ -54,7 +57,6 @@ main {
 
 section {
     padding-top: 20px;
-    font-size: 1.3rem;
 }
 
 article {
@@ -71,7 +73,7 @@ h1 {
 }
 
 p {
-    color: #5D2D05;
+    color: #162144;
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-style: normal;
@@ -90,7 +92,7 @@ footer {
 .imagem {
     width: 20%;
     height: 240px;
-    background: #A62B1F;
+    background: #5d0013;
     float: left;
     text-align: center;
     border-radius: 50%;
@@ -98,11 +100,16 @@ footer {
     box-shadow: -5px 5px 5px #590E0E;
 }
 
+.imagem.shadown { 
+    box-shadow: -5px 5px 0px black;
+}
+
 .texto {
     padding: 20px;
     width: 78%;
     float: right;
     padding-top: 40px;
+    align-items: center;
 }
 
 .imagem.right {
@@ -113,39 +120,45 @@ footer {
     float: left;
 }
 
+.float img{
+    float: left;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    align-items: center;
 }
 
 .caixa {
-    width: 80%;
+    width: 100%;
     padding: 20px;
     gap: 20px;
     border-radius: 8px;
-    background-color: #657BA6;
+    background-color: #5D0013;
     box-sizing: content-box;
-    box-shadow: 3px 3px 5px #283551;
+    box-shadow: 3px 3px 5px #590E0E;
 }
 
 .caixa.depois {
     box-sizing: border-box;
-    background-color: #657BA6;
+    background-color: #5D0013;
 }
 
 .caixa.depois p {
     font-size: 1.5rem;
     color: #B0D6F9;
+    align-items: center;
 }
 
 .contatos {
     width: auto;
     padding: 20px;
     border-radius: 8px;
-    background-color: #657BA6;
+    background-color: #5D0013;
     box-sizing: content-box;
-    box-shadow: 3px 3px 5px #283551;
+    box-shadow: 3px 3px 5px #590E0E;
 }
 
 .contatos p {
@@ -156,15 +169,7 @@ footer {
     width: auto;
     padding: 20px;
     border-radius: 8px;
-    background-color: #657BA6;
+    background-color: #5D0013;
     box-sizing: content-box;
-    box-shadow: 3px 3px 5px #283551;
-}
-
-.background {
-    z-index: 1;
-    opacity: 0.6;
-    width: 100%;
-    height: 100%;
-    top: 0;
+    box-shadow: 3px 3px 5px #590E0E;
 }
